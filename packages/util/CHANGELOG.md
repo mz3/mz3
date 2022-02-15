@@ -1,3 +1,11 @@
+## @mz3/util [1.1.1](https://github.com/mz3/mz3/compare/@mz3/util@1.1.0...@mz3/util@1.1.1) (2022-02-15)
+
+
+### Bug Fixes
+
+* add publish config ([bdc3b79](https://github.com/mz3/mz3/commit/bdc3b799c33f8d60742201e9b080b52fc8e822f6))
+* add repository url ([1853b8d](https://github.com/mz3/mz3/commit/1853b8d26a714aa9fdc8ee41a20262974d7f016d))
+
 # @mz3/util [1.1.0](https://github.com/mz3/mz3/compare/@mz3/util@1.0.0...@mz3/util@1.1.0) (2022-02-15)
 
 
