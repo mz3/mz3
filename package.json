@@ -2,7 +2,9 @@
   "name": "mz3",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "release": "multi-semantic-release"
+  },
   "private": true,
   "dependencies": {
     "tslib": "^2.0.0"
@@ -17,6 +19,9 @@
     "@nrwl/tao": "13.8.1",
     "@nrwl/workspace": "13.8.1",
     "@qiwi/multi-semantic-release": "^3.17.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.0",
     "@types/jest": "27.0.2",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "~5.10.0",
