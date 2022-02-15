@@ -1,3 +1,15 @@
+# @mz3/util [1.1.0](https://github.com/mz3/mz3/compare/@mz3/util@1.0.0...@mz3/util@1.1.0) (2022-02-15)
+
+
+### Bug Fixes
+
+* publishing ([ea70bfd](https://github.com/mz3/mz3/commit/ea70bfd0e48fb198525d08a1d50591490501f780))
+
+
+### Features
+
+* refactor util ([f4dfb05](https://github.com/mz3/mz3/commit/f4dfb059c7a6ebaab4cf8d5f816b042273a32995))
+
 # @mz3/util 1.0.0 (2022-02-15)
 
 
