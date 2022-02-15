@@ -1,7 +1,7 @@
 {
   "name": "@mz3/util",
-  "version": "0.0.1",
-  "repository": {
-    "url": "git://github.com/mz3/mz3.git"
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
