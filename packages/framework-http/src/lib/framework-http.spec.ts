@@ -9,7 +9,7 @@ describe('frameworkHttp', () => {
 
 describe('createServer', () => {
   it('should create a server', () => {
-    const server: Server = createServer()
-    expect(server).toEqual({})
-  })
+    const server: Server = createServer();
+    expect(server).toEqual({});
+  });
 });
