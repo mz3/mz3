@@ -1,0 +1,39 @@
+{
+  "root": "packages/framework-sample",
+  "sourceRoot": "packages/framework-sample/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/framework-sample",
+        "main": "packages/framework-sample/src/index.ts",
+        "tsConfig": "packages/framework-sample/tsconfig.app.json",
+        "assets": ["packages/framework-sample/*.md"]
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "options": {
+        "buildTarget": "framework-sample:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/framework-sample/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/framework-sample"],
+      "options": {
+        "jestConfig": "packages/framework-sample/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
