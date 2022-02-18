@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "framework": "packages/framework",
+    "framework-http": "packages/framework-http",
     "framework-sample": "packages/framework-sample",
     "util": "packages/util"
   }

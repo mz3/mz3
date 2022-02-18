@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@mz3/framework": ["packages/framework/src/index.ts"],
+      "@mz3/framework-http": ["packages/framework-http/src/index.ts"],
       "@mz3/myasdf": ["packages/myasdf/src/index.ts"],
       "@mz3/util": ["packages/util/src/index.ts"]
     }

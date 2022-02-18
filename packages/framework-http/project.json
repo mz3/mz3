@@ -1,0 +1,23 @@
+{
+  "root": "packages/framework-http",
+  "sourceRoot": "packages/framework-http/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/framework-http/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/framework-http"],
+      "options": {
+        "jestConfig": "packages/framework-http/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
